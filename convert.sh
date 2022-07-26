@@ -2,7 +2,7 @@
 
 # This is a script from DTOS!
 of="$1"
-[ -z "$1" ] && of='hegdearch'
+[ -z "$1" ] && of='hegde-arch'
 
 # Extract the shebang from README.org and write it to new file.
 grep ':shebang' README.org | cut -d \" -f2 > "$of"
