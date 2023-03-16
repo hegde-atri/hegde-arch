@@ -1,5 +1,70 @@
 #+title: hegde-arch
+#+author: Atri Hegde
 #+descrption: A post-installation script for Arch linux to install hegde-atri's desktop env.
-#+author: Atri Hegde (hegde-atri)
+#+property: header-args :tangle install :shebang #!/bin/sh
+#+auto_tangle: t
 
-Project being rewritten
+* Preface
+Quickly install Arch Linux with my configurations and applications I use everyday.
+This is supposed to be for experienced users, so it does not contain thorough validation or error handling.
+
+
+* Table of Content :TOC:
+- [[#preface][Preface]]
+- [[#inital-setup][Inital setup]]
+  - [[#banner][Banner]]
+  - [[#faster-downloads][Faster downloads]]
+  - [[#misc][Misc]]
+- [[#drives-and-paritioning][Drives and paritioning]]
+  - [[#common-functions][Common Functions]]
+  - [[#cfdisk][cfdisk]]
+  - [[#partition-prompts][Partition prompts]]
+  - [[#paritioning][Paritioning]]
+- [[#arch-chroot][Arch-chroot]]
+- [[#basic-settings][Basic settings]]
+  - [[#misc-1][Misc]]
+  - [[#grub][Grub]]
+  - [[#packages][Packages]]
+  - [[#user][User]]
+- [[#installing-dotfiles-and-aur-programs][Installing dotfiles and AUR programs]]
+  - [[#paru][Paru]]
+  - [[#hyprland][Hyprland]]
+  - [[#swww][swww]]
+  - [[#eww-wayland][eww-wayland]]
+  - [[#rxfetch][rxfetch]]
+  - [[#wallpapers][wallpapers]]
+  - [[#gtk-theme][GTK theme]]
+  - [[#dotfiles][dotfiles]]
+
+* Inital setup
+** Banner
+** Faster downloads
+** Misc
+
+* Drives and paritioning
+** Common Functions
+*** show_drives
+
+** cfdisk
+
+** Partition prompts
+
+** Paritioning
+
+* Arch-chroot
+
+* Basic settings
+** Misc
+** Grub
+** Packages
+** User
+
+* Installing dotfiles and AUR programs
+** Paru
+** Hyprland
+** swww
+** eww-wayland
+** rxfetch
+** wallpapers
+** GTK theme
+** dotfiles
